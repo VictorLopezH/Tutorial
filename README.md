@@ -1,2 +1,2 @@
 # Tutorial
-Maquetación de un tutorial utilizando estándares W3C de HTML y CSS.
+Maquetación de un tutorial utilizando HTML y CSS.
