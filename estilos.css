@@ -1,0 +1,204 @@
+body {
+    background: none repeat scroll 0 0 #333333;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;/* per a que la pagina quedi centrada en el IE6 i anteriors versions, ja que no reconeix el codi { margin:0 auto 0 auto; width:390px; } del div container*/
+}
+.container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0 auto;/* per a crear marges per poder centrar tota la pagina*/
+    text-align: left;/* Per a que el text quedi correctament alineat a l'esquerra*/
+    width: 900px;/*amplada de tota la pagina*/
+}
+h1, h2, h3, h4 {
+    color: #990000;/*color de la lletra de tots el títols*/
+    line-height: 2px;
+}
+h1 {/*primer títol del top al div header*/
+    font-size: 22px;
+    font-weight: normal;
+}
+h2 {/*segon títol del top al div header*/
+    font-size: 32px;
+}
+h3 {/*primer títol del body a dins del div titol*/
+    font-size: 19px;
+    font-weight: normal;
+}
+h4 {/*segon títol del body a dins del div titol*/
+    font-size: 23px;
+}
+h5, h6 {/*titols de la pagina 17 dins del contingut*/
+	font-size: 17px;
+}
+#titol {
+    height: 87px;/*separació amb el cos de la pàgina*/
+    margin-top: 39px;/*separació dels títols amb el top*/
+}
+#header {/*div que conté el top i els divs de navegacio i navegacio2*/
+    border-bottom: 4px solid #990000;/*defineix l'amplada y el color de la bora del top*/
+}
+#navegacio {/*navegació entre les pàgines 1, 4,8 ,12 i 16*/
+    border-bottom: 1px solid #000000;/*bora inferior negra*/
+    float: right;/*cap a la dreta*/
+    font-size: 9pt;
+    height: 32px;/*manté la distancia de la lletra i la bora inferior*/
+    left: 50%;
+    margin-top: -49px;/*per ajustar la seva posició d'alçada*/
+    top: 50%;
+}
+#navegacio2 {/*navegació de pàgina següent i pàgina anterior*/
+    border-bottom: 1px solid #000000;/*bora inferior negra*/
+    border-top: 1px solid #000000;/*bora superior negra*/
+    float: right;
+    font-size: 9pt;
+    height: 19px;
+    left: 50%;
+    margin-top: -68px;
+    top: 50%;
+}
+a:link {/*per a definir l'estil dels vincles de totes les pàgines*/
+    color: #990000;/*vincles de color vermell*/
+    text-decoration: none;/*sense linia a sota del vincle*/
+}
+.content {
+    background-color: #FFFFFF;/* color de fons del div*/
+    border-bottom: 10px solid #990000;/*bora de sota el div*/
+    height: 790px;/*altura del div*/
+    left: 50%;
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-top: 7px;
+    top: 50%;
+    width: 795px;/* amplada del div*/
+}
+#rojo1 {/* div del rectangle vermell esquerre*/
+    background-color: #990000;/*color vermell de fons del div */
+    color: #990000;/*color de la lletra del mateix color del fons per a que no es vegi la lletra pero sigui visible el div*/
+    float: left;
+    height: 62px;/*altura del div*/
+    left: 50%;
+    margin-top: 38px;/*defineix la separació amb l'alçada*/
+    top: 50%;
+    width: 32px;/* amplada del div*/
+    z-index: 99;
+}
+#rojo2 {/* div del rectangle vermell dret */
+    background-color: #990000;/*color de fons del div*/
+    color: #990000;/*color de la lletra del mateix color del fons per a que no es vegi la lletra pero sigui visible el div*/
+    float: right;
+    height: 62px;/*altura del div*/
+    margin-top: 38px;
+    width: 32px;/* amplada del div*/
+    z-index: 100;
+}
+#margetop {/*marge de separació del top*/
+    height: 38px;/*defineix l'alçada del marge*/
+}
+#colm1 {/*div de la columna esquerra del index*/
+    float: left;/*columna cap a la esquerra*/
+    left: 50%;
+    top: 50%;
+    width: 379px;/*amplada de columna*/
+}
+#img1a {/*la primera imatge de la pàgina index*/
+    border: 2px solid #CC0000;
+    width: 382px;
+}
+#img1b {/*la segona imatge de la pàgina index*/
+    border: 2px solid #CC0000;
+    float: right;/*per colocar la imatge a la part dreta*/
+    left: 50%;
+    margin-top: 47px;
+    top: 50%;
+    width: 397px;/*amplada de la imatge per a que la bora la envolti aduquadament*/
+}
+#colm1-2 { /* columna esquerra de les pagines 1, 5 i 8 */
+    float: left;/*per colocar el text o imatge a la part esquerra*/
+    left: 50%;
+    top: 50%;
+    width: 253px;/*amplada de la columna* esquerra + o - a la meitad de la amplada total de la pàgina*/
+}
+#img2a {/*div que conté la primera imatge de la segona pàgina*/
+    border: 2px solid #CC0000;
+    margin-top: 47px;
+    width: 357px;/*amplada de la imatge per a que la bora la envolti aduquadament*/
+}
+#colm2-2 {/*div de la segona columna (dreta) de la pàgina 2*/
+    float: right;/*cap a la dreta*/
+    left: 50%;
+    top: 50%;
+    width: 409px;/*defineix l'amplada del div*/
+}
+#img2b {/*div que conté la segona imatge de la segona pàgina*/
+    border: 2px solid #CC0000;
+    width: 405px;
+}
+#colm1-4 { /*div de la primera columna (esquerra) de la pàgina 4*/
+    float: left;
+    width: 453px;
+}
+#img4 {/*div de la imatge de la pàgina 4*/
+    border: 2px solid #CC0000;
+    width: 453px;
+}
+#colm2-4 {/*div de la segona columna de la pàgina 4*/
+    float: right;
+    width: 302px;
+}
+#imgdreta {/*imatge dreta de la pagina 5 i 8*/
+	float: right;
+    width: 524px
+}
+#colm1-6 {/*primera columna (esquerra) de la pàgina 6*/
+    border-right: 2px solid #990000;
+    float: left;
+    width: 393px;
+    margin-bottom: 63px;
+}
+#colm2-6 { /*columna dreta de la pagina 6, 7 i 10*/
+    float: right;
+    left: 50%;
+    top: 50%;
+    width: 379px;
+}
+#img6 {/*div de la imatge de la pàgina 6*/
+    border: 2px solid #CC0000;
+    width: 750px;
+    margin-top: 421px;
+    margin-left: 21px;/*marge per a centrar la imatge*/
+}
+#colm1-7 {/*div de la primera columna (esquerra) de la pàgina 7*/
+    border-right: 2px solid #990000;
+    float: left;
+    width: 372px;
+}
+#img7 {/*div de la imatge de la pàgina 7*/
+	border: 2px solid #CC0000;
+    margin-left: 112px;
+    margin-top: 275px;
+    width: 521px;/*marge per a centrar la imatge*/
+}
+#img10b {/*div de la segona imatge de la pàgina 10*/
+    border: 2px solid #CC0000;
+    float: right;
+    margin-bottom: 11px;
+    margin-right: 36px;
+    margin-top: 107px;
+    width: 333px;
+}
+#img10c {/*div de la tercera iamtge de la pàgina 10*/
+    border: 2px solid #CC0000;
+    float: right;
+    width: 333px;
+    margin-right: 35px;
+}
+#textborde {/*cuadre amb bores vermelles de la pag 10*/
+    border: 2px solid #CC0000;
+    margin-top: 390px;
+}
+#textborder17 { /*cuadre amb bores vermelles de la pag 17*/
+    border: 2px solid #CC0000;
+}
